@@ -15,23 +15,24 @@
 
 <body>
     <div id="bg"></div>
-    <h1>MARTA Dispatch</h1>
+    <h1>MARTA Client</h1>
     <div class="container">
+        <h3>PICK UP</h3>
+        <div class='display' id="pickupShortName">PMP Office</div>
+        <h3>DESTINATION</h3>
+        <div class='display' id="pickupShortName">Civic Center</div>
+        <h3>CURRENT ETA</h3>
+        <div class='display' id=''>06:41</div>
+        <h3>STATUS</h3>
+        <div id='status'>....</div><div class='display' id='statusText'>On time </div>
 
-        <h3>CLIENT ID</h3>
-        <div class='display' id="clientID">55,555</div>
+        <hr>
 
-        <h3>CURRENT EST_TIME</h3>
-        <div class='display' id='currETA'>06:41</div>
-<hr>
         <div class='input'>
-            <form>
-                <div class="form-group">
-                    <label for="updateETA">Update ETA</label>
-                    <input type="text" class="form-control" id="inputETA" aria-describedby="emailHelp" placeholder="New ETA (00:00) Eastern Standard Time"><span id="update" class="btn btn-primary">Update</span>                  
-                </div>
+            <span id="update" class="btn btn-primary">Update</span>
         </div>
-        </form>
+    </div>
+    </form>
     </div>
 </body>
 
