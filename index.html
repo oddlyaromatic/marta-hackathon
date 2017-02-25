@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Dispatcher-Interface</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="author" content="Daniel Alexander Davis" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+        <script type="text/javascript" src="script.js" async></script>
+</head>
+
+<body>
+    <div id="bg"></div>
+    <h1>MARTA Dispatch</h1>
+    <div class="container">
+
+        <div class="trip-info">
+          <h4>Booking ID</h4>
+          <span class="display" id="bookingID">994848884</span>
+        </div>
+        <div class="trip-info">
+          <h4>Client ID</h4>
+          <span class="display" id="clientID">55232</span>
+        </div>
+
+        <h4>Scheduled Time</h4>
+        <span class="display" id="schedTime">06:55</span>
+
+        <h4>Current ETA</h4>
+        <span class="display" id="currETA">06:55</span>
+<hr>
+        <div class="input">
+            <form>
+                <div class="form-group">
+                    <label for="updateETA">Update ETA</label><br>
+                    <input type="text" class="form-control" id="inputETA" aria-describedby="new ETA for trip" placeholder="New ETA (HH:MM)"><div id="update" class="btn btn-primary">Update</div>
+                </div>
+        </form>
+      </div>
+
+    </div>
+</body>
+
+</html>

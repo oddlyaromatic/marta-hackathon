@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Client-Interface</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="author" content="Daniel Alexander Davis" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script type="text/javascript" src="client-script.js" async></script>
+
+</head>
+
+<body>
+    <div id="bg"></div>
+    <h1>MARTA Client</h1>
+    <center><h2>My Trip Details</h2></center>
+    <div class="container">
+        <div class="trip-info">
+          <h4>From</h4>
+          <span class="display" id="pickupShortName">PMP Office</span>
+        </div>
+        <div class="trip-info">
+          <h4>To</h4>
+          <span class="display" id="destinationShortName">Zoo</span>
+        </div>
+         <h4>Scheduled Time</h4>
+        <span class="display" id="">Today, 06:55</span>
+        <h4>Expected Pickup Time</h4>
+        <div class="display" id="currETA"></div>
+        <span class="display" id="statusText">On time</span><br><br>
+
+        <div class="input">
+            <span id="update" class="btn btn-primary"><i class="glyphicon glyphicon-refresh"></i> Refresh</span>
+        </div>
+    </div>
+
+  </body>
+
+</html>
