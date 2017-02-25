@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Dispatcher-Interface</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="author" content="Daniel Alexander Davis" />
+    <link href="https://fonts.googleapis.com/css?family=Cutive|Magra|Roboto|Raleway" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script type='text/javascript' src="script.js" async></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+</head>
+
+<body>
+    <div id="bg"></div>
+    <h1>MARTA Dispatch</h1>
+    <div class="container">
+
+        <h3>CLIENT ID</h3>
+        <div class='display' id="clientID">55,555</div>
+
+        <h3>CURRENT EST_TIME</h3>
+        <div class='display' id='currETA'>06:41</div>
+
+        <div class='input'>
+            <form>
+                <div class="form-group">
+                    <label for="updateETA">Update ETA</label>
+                    <input type="text" class="form-control" id="inputETA" aria-describedby="emailHelp" placeholder="New ETA (00:00) Eastern Standard Time"><span id="update" class="btn btn-primary">Update</span>                  
+                </div>
+        </div>
+        </form>
+    </div>
+</body>
+
+</html>
