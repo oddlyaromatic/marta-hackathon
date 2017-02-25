@@ -31,6 +31,7 @@ h1{
 #inputETA{
 	padding:20px;
 	margin: 10px;
+	margin-left: 0;
 	width: 450px;
 	font-size: 2rem;
 }
@@ -39,6 +40,9 @@ h1{
 	padding:1rem;
 	display: inline !important;
 }
-button{
-	transform:translate(47rem, -5.2rem);
+#update{
+	/*transform:translate(47rem, -5.2rem);*/
+	display: inline;
+	font-size: 1em;
+
 }
